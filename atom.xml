@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Fl3tching101&#x27;s Film Portfolio</title>
+    <subtitle>A portfolio page for Fl3tching101 featuring film photography galleries and related blog posts</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://fl3tching101.github.io/film-portfolio/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://fl3tching101.github.io/film-portfolio"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-21T01:21:00+00:00</updated>
+    <id>https://fl3tching101.github.io/film-portfolio/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Test Gallary</title>
+        <published>2024-10-21T01:21:00+00:00</published>
+        <updated>2024-10-21T01:21:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://fl3tching101.github.io/film-portfolio/gallery/test-gallery/"/>
+        <id>https://fl3tching101.github.io/film-portfolio/gallery/test-gallery/</id>
+        
+        <content type="html" xml:base="https://fl3tching101.github.io/film-portfolio/gallery/test-gallery/">&lt;p&gt;This is a test of a gallery under the gallery section of this site.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;half-frame-test-shots&quot;&gt;Half Frame Test Shots&lt;&#x2F;h1&gt;
+&lt;p&gt;These are a couple test shots with my Agat 18K to use as examples for this test&lt;&#x2F;p&gt;
+&lt;div ID=&quot;test1&quot;&gt;
+    &lt;a href=&quot;IMG_0248.JPG&quot; data-ngthumb=&quot;IMG_0248.JPG&quot;&gt;&lt;&#x2F;a&gt;
+    &lt;a href=&quot;IMG_0247.jpg&quot; data-ngthumb=&quot;IMG_0247.jpg&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;rollei-35-led-test-shots&quot;&gt;Rollei 35 LED Test Shots&lt;&#x2F;h1&gt;
+&lt;p&gt;These are a couple of test shots from my Rollei 35 LED&lt;&#x2F;p&gt;
+&lt;div ID=&quot;test2&quot;&gt;
+    &lt;a href=&quot;IMG_0252.JPG&quot; data-ngthumb=&quot;IMG_0252.JPG&quot;&gt;&lt;&#x2F;a&gt;
+    &lt;a href=&quot;IMG_0253.JPG&quot; data-ngthumb=&quot;IMG_0253.JPG&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;
+&lt;script&gt;
+    addNanoGallery(&quot;test1&quot;);
+    addNanoGallery(&quot;test2&quot;);
+&lt;&#x2F;script&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Test Blog Post</title>
+        <published>2024-10-21T01:00:00+00:00</published>
+        <updated>2024-10-21T01:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://fl3tching101.github.io/film-portfolio/blog/test-blog/"/>
+        <id>https://fl3tching101.github.io/film-portfolio/blog/test-blog/</id>
+        
+        <summary type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Zola content files, also it shows if basic HTML elements are decorated with CSS in a Zola theme.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

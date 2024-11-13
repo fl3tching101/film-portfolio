@@ -1,0 +1,5 @@
+
+Sitemap: https://fl3tching101.github.io/film-portfolio/sitemap.xml
+User-Agent: *
+Allow: /
+Host: https://fl3tching101.github.io/film-portfolio
