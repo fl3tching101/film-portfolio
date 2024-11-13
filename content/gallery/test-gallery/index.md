@@ -15,30 +15,18 @@ keywords = ""
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
 <script>
-    function createNanogalleryDiv(images) {
-    // Create the main div element
-    const galleryDiv = document.createElement('div');
-    galleryDiv.id = 'gallery';
-    galleryDiv.setAttribute('data-nanogallery2', JSON.stringify({
-        thumbnailWidth: 'auto',
-        thumbnailHeight: '500',
-        thumbnailLabel: {
-            position: 'overImageOnBottom',
-        },
-        thumbnailAlignment: 'center',
-        thumbnailOpenImage: true,
-    }));
-
-    // Create anchor elements for each image and append to the gallery div
-    images.forEach((imagePath) => {
-        const anchor = document.createElement('a');
-        anchor.href = imagePath;
-        anchor.setAttribute('data-ngthumb', imagePath);
-        galleryDiv.appendChild(anchor);
-    });
-
-    return galleryDiv;
-}
+    function addNanoGallery(div_id){
+        const galleryDiv = document.getElementById(div_id);
+        galleryDiv.setAttribute('data-nanogallery2', JSON.stringify({
+            thumbnailWidth: '400',
+            thumbnailHeight: 'auto',
+            thumbnailBorderHorizontal: "0",
+            thumbnailBorderVertical: "0",
+            thumbnailAlignment: "center",
+            thumbnailGutterWidth: "6",
+            itemsBaseURL: "./img/"
+        }));
+    }
 </script>
 
 This is a test of a gallery under the gallery section of this site.
@@ -47,48 +35,21 @@ This is a test of a gallery under the gallery section of this site.
 
 These are a couple test shots with my Agat 18K to use as examples for this test
 
-<!-- <div id="test-gallery1">
-    <script>
-        const images1 = ['./img/IMG_0248.JPG', './img/IMG_0247.jpg'];
-        const gallery1 = createNanogalleryDiv(images1);
-        document.getElementById('test-gallery1').appendChild(gallery1);
-    </script>
-</div> -->
-
-<div ID="test1" data-nanogallery2='{
-    "thumbnailWidth": "auto",
-    "thumbnailHeight": "500",
-    "thumbnailLabel": {
-        "position": "overImageOnBottom"
-    },
-    "thumbnailAlignment": "center",
-    "thumbnailOpenImage": true
-}'>
-    <a href="./img/IMG_0248.JPG" data-ngthumb="./img/IMG_0248.JPG"></a>
-    <a href="./img/IMG_0247.jpg" data-ngthumb="./img/IMG_0247.jpg"></a>
+<div ID="test1">
+    <a href="IMG_0248.JPG" data-ngthumb="IMG_0248.JPG"></a>
+    <a href="IMG_0247.jpg" data-ngthumb="IMG_0247.jpg"></a>
 </div>
 
 # Rollei 35 LED Test Shots
 
 These are a couple of test shots from my Rollei 35 LED 
 
-<!-- <div id="test-gallery2">
-    <script>
-        const images2 = ['./img/IMG_0252.JPG', './img/IMG_0253.JPG'];
-        const gallery2 = createNanogalleryDiv(images2);
-        document.getElementById('test-gallery2').appendChild(gallery2);
-    </script>
-</div> -->
-
-<div ID="test2" data-nanogallery2='{
-    "thumbnailWidth": "auto",
-    "thumbnailHeight": "500",
-    "thumbnailLabel": {
-        "position": "overImageOnBottom"
-    },
-    "thumbnailAlignment": "center",
-    "thumbnailOpenImage": true
-}'>
-    <a href="./img/IMG_0252.JPG" data-ngthumb="./img/IMG_0252.JPG"></a>
-    <a href="./img/IMG_0253.jpg" data-ngthumb="./img/IMG_0253.jpg"></a>
+<div ID="test2">
+    <a href="IMG_0252.JPG" data-ngthumb="IMG_0252.JPG"></a>
+    <a href="IMG_0253.jpg" data-ngthumb="IMG_0253.jpg"></a>
 </div>
+
+<script>
+    addNanoGallery("test1");
+    addNanoGallery("test2");
+</script>
