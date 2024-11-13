@@ -28,7 +28,7 @@ These are a couple of test shots from my Rollei 35 LED
 
 <div ID="test2">
     <a href="IMG_0252.JPG" data-ngthumb="IMG_0252.JPG"></a>
-    <a href="IMG_0253.jpg" data-ngthumb="IMG_0253.jpg"></a>
+    <a href="IMG_0253.JPG" data-ngthumb="IMG_0253.JPG"></a>
 </div>
 
 <script>
